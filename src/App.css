@@ -1,0 +1,64 @@
+.selection {
+  width: 16vw;
+}
+
+#course-sel {
+  padding: 30px;
+}
+
+.year {
+  width: 250px;
+}
+
+#ham {
+  display: none;
+  right: 0px;
+}
+
+#nav-links {
+  justify-content: space-between;
+}
+
+button {
+  background-color: #eae2c6;
+  transition: 0.2s ease;
+}
+
+@media only screen and (max-width: 728px) {
+  .sel-container {
+    flex-direction: column;
+  }
+  .selection {
+    width: 100%;
+    margin-bottom: 5vh;
+  }
+  #course-sel {
+    padding-bottom: 30px;
+  }
+  #home-page {
+    padding-top: 30vh;
+  }
+  .year {
+    width: 100%;
+  }
+  #year-page {
+    padding-top: 37vh;
+  }
+  #ham {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #nav-home {
+    display: none;
+  }
+  #nav-about {
+    display: none;
+  }
+  #nav-contact {
+    display: none;
+  }
+  #nav-links {
+    justify-content: end;
+  }
+}
